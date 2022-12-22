@@ -1,10 +1,10 @@
 apiVersion: "1"
-version: "2"
+version: "3"
 id: "cloudbees-ehi-ops-controller"
 description: "CloudBees CI configuration bundle for the cloudbees-ehi ops-controller Controller"
 availabilityPattern: "cloudbees-ci-casc-workshop/cloudbees-ehi/ops-controller"
 jcasc:
-  - "jenkins.yaml"
+  - "jcasc/"
 plugins:
   - "plugins.yaml"
 items:
